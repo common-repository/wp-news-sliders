@@ -1,0 +1,22 @@
+#news-slider-options{
+    background-color: #f1f1f1;
+    width: 500px;
+}
+
+#news-slider-options tr td{
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+#news-slider-options tr td:first-child{
+    width: 240px;
+}
+
+#news-slider-options tr td:nth-child(2){
+    width: 10px;
+}
+
+#news-slider-options tr td:last-child{
+    width: 250px;
+}
+

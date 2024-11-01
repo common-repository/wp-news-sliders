@@ -1,0 +1,71 @@
+.newsslider{
+    overflow: hidden;
+}
+
+.newsslider-pager li{
+    float: left;
+    list-style-type: none;
+    width: 40px;
+    height: 25px;
+    line-height: 23px;
+    border-radius: 2px;
+    text-align: center;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.newsslider-pager{
+    height: 30px;
+    padding-top: 2px;
+    padding-left: 10px;
+    margin: 0 !important;
+    overflow: hidden !important;
+}
+
+.carousel-caption {
+    top: 60% !important;
+    text-shadow: 2px 2px #000;
+}
+
+.carousel-caption h3{
+    font-size: 24px !important;
+}
+
+.carousel-control{
+    box-shadow: none !important;
+}
+
+.sub-news-container{
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.sub-news-container::-webkit-scrollbar {
+    width: 12px;
+}
+
+.sub-news-container::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+
+.sub-news-container::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+
+.sub-news-container .sub-new-container:not(:first-child){
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.sub-news-container .sub-new-container:first-child{
+    padding-top: 5px;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.sub-new-container{
+    padding-left: 5px;
+}

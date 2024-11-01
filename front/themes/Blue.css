@@ -1,0 +1,16 @@
+.sub-news-container{
+    background-color: #2B6FB6;
+}
+
+.sub-new-container{
+    background-color: #1e85be;
+}
+
+.newsslider-pager li{
+    background-color: #1e85be;
+    border: 1px solid #0A246A;
+}
+
+.newsslider-pager{
+    background-color: #2B6FB6;
+}
